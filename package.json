@@ -1,0 +1,13 @@
+{
+  "name": "vercel-panchang",
+  "version": "1.1.0",
+  "description": "Vercel serverless app that returns daily Panchang (JSON)",
+  "main": "api/panchangam.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@ishubhamx/panchangam-js": "^1.0.0",
+    "luxon": "^3.0.0"
+  }
+}
